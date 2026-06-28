@@ -1,0 +1,61 @@
+.app-header {
+  padding: 3.5em;   // was 3em
+  background: $darkest-color;
+  text-align: center;
+}
+
+.app-header-avatar {
+  width: 15rem;
+  height: 15rem;
+
+  border-radius: 50%;
+  border: 0.5rem solid $primary-color;
+
+  object-fit: cover;
+}
+
+@media (max-width: 939px) {
+  .app-header-avatar {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+.app-container {
+  padding: 3rem;    // was 3rem
+}
+
+.app-header-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2em; // was 2em
+  color: $lightest-color;
+
+  a:not(:last-child) {
+    margin-right: 0.5em;
+  }
+}
+
+.app-header-title {
+  color: $lightest-color;
+  display: block;
+  font-size: 2.2em; // was 2em
+  margin: 0.67em 0;
+  font-weight: bold;
+}
+
+@media (min-width: 940px) {
+  .app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 24rem;       // was 20rem
+    min-height: 100vh;
+  }
+
+  .app-container {
+    max-width: 72rem;   // was 70rem
+    margin-left: 24rem; // was 20rem
+  }
+}

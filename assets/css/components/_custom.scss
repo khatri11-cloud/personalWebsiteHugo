@@ -1,0 +1,16 @@
+.app-header-title {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.english-name {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.native-name {
+    font-size: 0.95rem;
+    opacity: 0.75;
+    margin-top: 4px;
+}
