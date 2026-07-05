@@ -4,8 +4,6 @@ tags = ["DevOps", "Go"]
 date = "2026-07-05"
 +++
 
-# Containerizing a Go Application with Docker -- Project 1 (Part 2)
-
 **Series:** DevOps Project Series\
 **Part:** 2 of 3
 

@@ -4,10 +4,8 @@ tags = ["DevOps", "Go"]
 date = "2026-07-05"
 +++
 
-# Provisioning Azure Infrastructure with Terraform and Deploying a Go Application -- Project 1 (Part 3)
-
-Series: DevOps Project Series\
-Part: 3 of 3
+**Series:** DevOps Project Series\
+**Part:** 3 of 3
 
 ## Introduction
 

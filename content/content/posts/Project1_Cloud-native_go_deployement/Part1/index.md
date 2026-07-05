@@ -3,7 +3,6 @@ title = "Building a Production-Ready Go Web Service -- Project 1 (Part 1)"
 tags = ["DevOps", "Go"]
 date = "2026-07-05"
 +++
-# Building a Production-Ready Go Web Service -- Project 1 (Part 1)
 
 > **Series:** DevOps Project Series\
 > **Part:** 1 of 3
