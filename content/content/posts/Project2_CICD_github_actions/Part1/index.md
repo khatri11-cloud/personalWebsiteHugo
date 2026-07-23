@@ -27,7 +27,6 @@ The next logical step was to automate this process.
 
 In this project, I begin transforming the application into a continuously delivered service by building a complete CI/CD pipeline using GitHub Actions. Part 1 focuses on Continuous Integration (CI), ensuring that every code change is automatically validated before it is considered ready for deployment.
 
----
 
 # Project Overview
 
@@ -45,7 +44,7 @@ The objective is simple:
 > Every change pushed to the GitHub repository should automatically build and validate the application without requiring any manual intervention.
 > 
 
----
+
 
 # Why Continuous Integration?
 
@@ -59,7 +58,7 @@ Instead of discovering mistakes during deployment, they are detected immediately
 
 This provides rapid feedback and ensures that the main branch always remains in a deployable state.
 
----
+
 
 # Creating the GitHub Actions Workflow
 
@@ -81,7 +80,7 @@ This file defines the Continuous Integration pipeline that GitHub Actions execut
 
 *Repository structure highlighting `.github/workflows/ci.yml`*
 
----
+
 
 # The CI Workflow
 
@@ -134,7 +133,6 @@ jobs:
         run: go build ./...
 ```
 
----
 
 # Understanding the Workflow
 
@@ -152,7 +150,7 @@ The workflow is triggered whenever code is pushed to the `main` branch or when a
 
 This ensures that all incoming changes are automatically validated.
 
----
+
 
 ### Checkout Repository
 
@@ -164,7 +162,7 @@ GitHub Actions starts with a clean virtual machine.
 
 This step downloads the latest version of the repository so the remaining workflow can access the project files.
 
----
+
 
 ### Setup Go
 
@@ -176,7 +174,7 @@ The workflow installs the Go version defined by the project.
 
 This guarantees that the application is built using the same Go version regardless of where the workflow executes.
 
----
+
 
 ### Download Dependencies
 
@@ -188,7 +186,7 @@ Any required Go modules are downloaded before the project is compiled.
 
 Although this project currently has very few dependencies, including this step makes the workflow ready for future expansion.
 
----
+
 
 ### Verify Formatting
 
@@ -200,7 +198,7 @@ Before compiling the application, GitHub checks whether the source code follows 
 
 Maintaining consistent formatting improves readability and keeps the codebase consistent across contributors.
 
----
+
 
 ### Static Analysis
 
@@ -212,7 +210,6 @@ go vet ./...
 
 Unlike the compiler, it looks for suspicious constructs and common programming mistakes that may still compile successfully but could cause unexpected behavior.
 
----
 
 ### Unit Testing
 
@@ -224,7 +221,7 @@ The workflow executes the project's unit tests to ensure that existing functiona
 
 As additional features are introduced in future projects, this testing stage will become increasingly important.
 
----
+
 
 ### Build Verification
 
@@ -236,7 +233,7 @@ The final step compiles the application.
 
 If compilation succeeds, GitHub confirms that the project is in a buildable state.
 
----
+
 
 # Verifying the Pipeline
 
@@ -256,7 +253,7 @@ This simple test demonstrated that the pipeline was correctly validating every c
 
 *Multiple GitHub Actions workflow runs showing both failed and successful executions.*
 
----
+
 
 # What Has Been Achieved?
 
@@ -274,7 +271,7 @@ Every push to the repository automatically:
 
 Developers no longer need to manually verify that the application compiles after every change. GitHub Actions now performs these checks automatically.
 
----
+
 
 # Looking Ahead
 
