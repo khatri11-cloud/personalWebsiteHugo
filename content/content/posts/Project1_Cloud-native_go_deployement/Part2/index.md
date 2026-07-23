@@ -4,8 +4,8 @@ tags = ["DevOps", "Go"]
 date = "2026-07-05"
 +++
 
-**Series:** DevOps Project Series\
-**Part:** 2 of 3
+> **Series:** DevOps Project Series\
+> **Part:** 2 of 3
 
 ## Introduction
 
