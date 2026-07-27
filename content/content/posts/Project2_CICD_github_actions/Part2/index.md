@@ -6,7 +6,7 @@ date = "2026-07-27"
 
 > **Series:** DevOps Project Series\
 > **Part:** 2 of 2
-
+> **GitHub Repo:** https://github.com/khatri11-cloud/go-devops-platform-cicd\
 
 In the previous part of this series, I built the Continuous Integration (CI) pipeline for my Go application. Every push to the `main` branch automatically triggered GitHub Actions to verify formatting, run static analysis, execute unit tests, and build the application.
 

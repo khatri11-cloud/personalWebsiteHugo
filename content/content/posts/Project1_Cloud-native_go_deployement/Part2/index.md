@@ -5,7 +5,8 @@ date = "2026-07-05"
 +++
 
 > **Series:** DevOps Project Series\
-> **Part:** 2 of 3
+> **Part:** 2 of 3\
+> **GitHub Repo:** https://github.com/khatri11-cloud/go-devops-platform\
 
 ## Introduction
 
