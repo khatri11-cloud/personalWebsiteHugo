@@ -5,7 +5,7 @@ date = "2026-07-23"
 +++
 
 > **Series:** DevOps Project Series\
-> **Part:** 1 of 3
+> **Part:** 1 of 2
 
 
 
