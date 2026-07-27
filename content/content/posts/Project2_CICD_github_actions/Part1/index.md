@@ -5,7 +5,8 @@ date = "2026-07-23"
 +++
 
 > **Series:** DevOps Project Series\
-> **Part:** 1 of 2
+> **Part:** 1 of 2\
+> **GitHub Repo:** https://github.com/khatri11-cloud/go-devops-platform-cicd\
 
 
 
