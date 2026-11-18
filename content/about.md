@@ -3,7 +3,7 @@ title = "About Me"
 +++
 
 
-Hi, I'm **Prajwal Singh Khatri** , a final-year Cybersecurity and Digital Forensics student at **The British College, Kathmandu**, affiliated with the **University of the West of England (UWE), Bristol**. I'll be graduating in Fall 2026.
+Hi, I'm **Prajwal Singh Khatri** , a final-year Cybersecurity and Digital Forensics student at **The British College, Kathmandu**, affiliated with the **University of the West of England (UWE), Bristol**. I'll be graduating in Summer 2026.
 
 When I began my degree, my focus was cybersecurity. The early years of my studies were built around understanding computers from the ground up how operating systems work, how networks communicate, how software interacts with hardware, and where security fits into that picture. Those foundations helped me understand that securing systems first requires understanding how they are designed and operated.
 
